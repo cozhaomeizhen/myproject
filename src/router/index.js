@@ -22,8 +22,8 @@ const router = new Router({
         {path: 'project', name: 'project', component: Project, meta: {title: '项目经验'}},
         {path: 'Works', name: 'works', component: Works, meta: {title: '工作经验'}},
         {path: 'about', name: 'about', component: About, meta: {title: '个人简介'}},
-        {path: 'articles', name: 'articles', component: Articles, meta: {title: '学习笔记'}},
-        {path: 'articles/:id', name: 'article', component: Article}
+        {path: 'articles',name: 'articles',component: Articles,meta: {title: '学习笔记'}},
+        {path: 'articles/:id', name: 'article', component: Article,meta: {title: '文章详情'}}
       ]
     },
   ]

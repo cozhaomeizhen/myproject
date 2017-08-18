@@ -50,7 +50,7 @@
 <style lang="scss" rel="stylesheet/scss" scoped>
      .home-content{
        .banner{
-         height: 680px;
+         height: 600px;
          background: url("../../assets/images/bg.jpg") no-repeat left top;
          text-aling:center;
          color:#fff;

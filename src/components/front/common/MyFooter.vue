@@ -1,6 +1,6 @@
 <template>
     <div id="footer">
-        <p>Copyright @ 2017 Powered by Vue. Designed by me</p>
+        <p>Copyright @ 2017 Powered by Vue. Designed by zmz</p>
     </div>
 </template>
 

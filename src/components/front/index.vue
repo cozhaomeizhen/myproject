@@ -11,8 +11,11 @@
   import MyFooter         from './common/MyFooter'
   import Home            from './home.vue'
   import About            from './About.vue'
+  import Works            from './Works.vue'
+  import Project          from './Project.vue'
   import Articles         from './Articles.vue'
   import Article          from './article.vue'
+
 
    export default {
     data(){
@@ -24,6 +27,8 @@
       MyHeader,
       MyFooter ,
       About,
+      Works,
+      Project,
       Articles ,
       Article,
       Home
@@ -33,8 +38,5 @@
 
 </script>
 <style lang="scss" rel="stylesheet/scss" scoped>
-*{padding: 0;margin: 0;}
  #wrapper{}
-
-
 </style>
